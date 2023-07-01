@@ -1,0 +1,32 @@
+programa
+{
+	inclua biblioteca Matematica --> Mat
+	
+	funcao inicio()
+	{
+		logico a, b, c, d, f, g,h
+		
+		a = 2 * 4 == 24 / 3
+
+          b = (15 % 4) < (19 % 6)
+
+          c = nao(2 < 5) != (8 == 8)
+   
+          d = verdadeiro ou falso
+
+          f = 2 * 2 == Mat.potencia(2, 2)
+
+          g = verdadeiro e ((7 / 2) > 3.5)
+
+          h = (Mat.arredondar(2.8, 0) == 3) e (Mat.raiz (9)==(3)
+
+          escreva("Proposição a: ", a,"\n")
+          escreva("Proposição b: ", b,"\n")
+          escreva("Proposição c: ", c,"\n")
+          escreva("Proposição d: ", d,"\n")
+          escreva("Proposição e: ", f,"\n")
+          escreva("Proposição f: ", g,"\n")
+          escreva("Proposição g: ", h)
+	
+	}
+}
