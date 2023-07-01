@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro dias 
+		inteiro horas
+		inteiro minutos
+		inteiro segundos
+		inteiro total_segundos
+
+		escreva("Diga a quantidade de dias: ")
+		leia(dias)
+		escreva("Diga a quantidade de horas: ")
+		leia(horas)
+		escreva("Diga a quantidade de minutos: ")
+		leia(minutos)
+		escreva("Diga a quantidade de segundos: ")
+		leia(segundos)
+		total_segundos = (dias * 24 * 60 * 60) + (horas * 60 * 60) + (minutos * 60) + segundos
+          escreva("O total de segundos é: ", total_segundos)
+		
+	}
+}
