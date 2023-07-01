@@ -1,0 +1,46 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia coriza, tosse, dor_de_garganta, febre
+		cadeia dificuldade_respirar
+
+		escreva("Você está com coriza? ")
+		leia(coriza)
+		se(coriza == "não"){
+			escreva("então tudo bem \n ")}	
+		   senao {
+		   	escreva("Você está com um sintoma comum da Covid-19 \n")}
+		
+		escreva("Você está com tosse? ")		
+		leia(tosse)
+			se(tosse == "não"){
+			escreva("então tudo bem \n ")}	
+		   senao {
+		   	escreva("Você está com um sintoma comum da Covid-19 \n ")}		
+		
+		escreva("Você está com dor de garganta?  ")
+		leia(dor_de_garganta)
+
+			se(dor_de_garganta == "não"){
+			escreva("então tudo bem \n ")}	
+		   senao {
+		   	escreva("Você está com um sintoma comum da Covid-19 \n ")}
+		
+		escreva("Você está com febre?  ")
+		leia(febre)
+		 	se(febre == "não"){
+			escreva("então tudo bem \n ")}	
+		   senao {
+		   	escreva("Você está com um sintoma comum da Covid-19 \n ")}
+		
+		escreva("Você está com dificuldade de respirar?  ")
+		leia(dificuldade_respirar)
+			se(dificuldade_respirar == "não"){
+			escreva("então tudo bem \n ")}	
+		   senao {
+		   	escreva("Você está com um sintoma grave da Covid-19, procure um médico!!!")}				
+			}	
+	}
+}
