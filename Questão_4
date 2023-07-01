@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		const real PRECO_DIARIA  = 60.0     
+          const real PRECO_KM  = 0.15
+          real percorrido
+          real dias_aluguel
+          real total
+
+          escreva("Digite a quantidade de km percorridos: ")
+          leia(percorrido)
+
+          escreva("Digite a quantidade de dias de aluguel: ")
+          leia(dias_aluguel)
+
+          total = (dias_aluguel * PRECO_DIARIA) + (percorrido * PRECO_KM)
+          escreva("O preço a pagar é de R$ ", total)
+
+
+          
+	}
+}
