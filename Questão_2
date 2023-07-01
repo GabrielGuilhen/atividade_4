@@ -1,0 +1,44 @@
+programa
+{
+	
+	funcao inicio()
+	{
+    
+	     real a, b, c, x1,x2,delta
+
+
+	    
+		escreva("Digite o valor de a: ")
+          leia(a)
+
+          escreva("Digite o valor de b: ")
+          leia(b)
+
+          escreva("Digite o valor de c: ")
+          leia(c)
+
+          escreva("Valores informados:\n")
+          escreva("a = ", a,"\n")
+          escreva("b = ", b,"\n")
+          escreva("c = ", c,"\n")
+
+          delta = (b * b) - (4 * a * c)
+
+          escreva("Valor de delta: ", delta, "\n")
+
+          se (delta > 0){
+          x1 = (-b + (delta)) / (2 * a)
+          x2 = (-b - (delta)) / (2 * a)	
+
+          escreva("Valor de x1: ", x1,"\n")
+          escreva("Valor de x2: ", x2,"\n")}
+          senao se (delta == 0){
+          x1 = -b / (2 * a)	
+          
+          escreva("Valor único de x: ", x1, "\n")
+          
+          }senao {
+          escreva("Não existem soluções reais para a equação.")	
+           }          
+	}
+}
