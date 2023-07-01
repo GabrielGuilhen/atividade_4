@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		const real cobertura_tinta=3.0
+		const real preco_lata=480.00
+		real area_pintar 
+		real quantidade_lata = 0
+		real preco_total = 0
+
+		escreva("Digite o tamanho da área a ser pintada (em metros quadrados): ")
+          leia(area_pintar)
+          quantidade_lata = cobertura_tinta * 18 /area_pintar
+          preco_total = quantidade_lata / preco_lata
+          escreva("Quantidade de latas de tinta a serem compradas: ", quantidade_lata)
+          escreva("Preço total: R$ ", preco_total)
+		
+		
+	}
+}
