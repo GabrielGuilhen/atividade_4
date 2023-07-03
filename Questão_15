@@ -1,0 +1,36 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real codigo
+          real quantidade
+          real valor_unitario
+          real valor_total
+
+          escreva("Diga o código do item pedido: ")
+          leia(codigo)
+   
+          escreva("Diga a quantidade desejada: ")
+          leia(quantidade)
+
+          se (codigo == 100){
+          valor_unitario = 5}
+          senao se (codigo == 10){ 
+          valor_unitario = 2.6}
+          senao se (codigo == 102){
+          valor_unitario = 3.8}
+          senao se (codigo == 103){ 
+          valor_unitario = 9.0}
+          senao se (codigo == 104){
+          valor_unitario = 11.0}
+          senao se (codigo == 105){
+          valor_unitario = 3.0}
+          senao se (codigo == 106){ 
+          valor_unitario = 1000}
+
+          valor_total = valor_unitario * quantidade
+
+          escreva("O valor a ser pago pelo lanche é: R$", valor_total)
+	}
+}
