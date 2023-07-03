@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n1, n2, n3
+
+		escreva("Diga o 1º numero? ")
+		leia(n1)
+		escreva("Diga o 2º numero? ")
+		leia(n2)
+		escreva("Diga o 3º numero? ")
+		leia(n3)
+
+		se (n1 >= n2 e n1 >= n3){
+			escreva("Os numeros são os mesmos, comece denovo o programa.")			
+		}
+		senao se (n2 >= n3 ){
+			escreva("Os números em ordem decrescente são: ", n3, ", ", n2, ", ", n1)			
+		}
+		senao{
+			escreva("Os números em ordem decrescente são: ", n1, ", ", n2, ", ", n3)
+		}
+
+
+		
+	}
+}
